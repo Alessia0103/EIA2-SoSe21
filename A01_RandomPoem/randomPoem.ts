@@ -32,13 +32,5 @@ _satz += _thing.splice(zufallthing, 1) + " ";
 
 console.log(_satz);
 return _satz;
-
-}
-   for (let i: number = 6; i <= thing.length; i--) {
-    if (i == 0) {
-        break;
-    }
-    //console.log(i);
-    getVerse(name, whattodo, thing, satz);
 }
 }
