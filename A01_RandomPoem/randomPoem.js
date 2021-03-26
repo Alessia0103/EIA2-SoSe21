@@ -30,12 +30,5 @@ var randomPoem;
         console.log(_satz);
         return _satz;
     }
-    for (let i = 6; i <= thing.length; i--) {
-        if (i == 0) {
-            break;
-        }
-        //console.log(i);
-        getVerse(name, whattodo, thing, satz);
-    }
 })(randomPoem || (randomPoem = {}));
 //# sourceMappingURL=randomPoem.js.map
