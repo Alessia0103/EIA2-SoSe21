@@ -1,0 +1,178 @@
+html{
+    height: 800px;
+    width: 1280px;
+    background: url("lol.jpeg") no-repeat;
+    background-size: cover;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    top:-20px;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: -webkit-max-content;  /* für Safari */	
+	max-width: -moz-max-content;     /* für Firefox */
+	text-align: center;
+    opacity: 100%;
+    font-size: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+#spieler{
+    left:250px;
+    top:120px;
+    position: absolute;
+    display: flex;
+    margin-bottom:0px;
+    opacity: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#computer{
+    left:250px;
+    top:145px;
+    position: absolute;
+    display: flex;
+    margin-bottom:0px;
+    opacity: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#emoji {
+    top:450px;
+    width: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    grid-column-gap: 20px;
+    margin-bottom:0px;
+    opacity: 100%;
+    font-size: 60px;
+    cursor: pointer;
+    justify-content: center;
+    color: white;
+}
+#einfach {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+#hard {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+#mittel{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#Text{
+    top:400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    
+    
+}
+#textstufen{
+    top: 0px;
+    
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    color: white;
+    font-size: 40px;
+
+}
+
+#redo{
+    left:200px;
+    top:130px;
+    position: absolute;
+    display: flex;
+    margin-bottom:0px;
+    opacity: 100%;
+    
+    
+    cursor: pointer;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+}
+#leicht{
+    top:60px;
+    bottom:20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+   
+}
+#mittel{
+    top:0px;
+    bottom:20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+#hard1{
+    top:0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+.card{
+    margin: 20px;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+   
+    
+}
+.is-hidden {
+    display:none !important;
+} 
+.is-hidden1 {
+    visibility: hidden;
+}
+#Footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    position: fixed;
+    padding: .6em;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    }
