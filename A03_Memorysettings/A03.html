@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Aufgabe 2.2: Memory</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+		<link type="text/css" rel="stylesheet" href="a03.css">
+		<script type="text/javascript" src="A03.js"></script>
+	</head>
+	<body>
+		<section id="spiel">
+			<h2>Memory</h2>
+			<div id="feld"></div>
+		</section>
+
+		<form>
+
+		<fieldset class="einstellung visible">
+			<legend> Einstellungen </legend> 
+
+			Choose the pair of cards
+			<input class="stepper" type="number" name="Stepper" step="1" min="5" max="25" value="5" />
+			<br />
+
+			Choose the size of cards
+			<input class="slider" type="range" name="Slider" min="100" max="200" step="10" value="100" /> <!-- wenn keine Eingabe stattfindet, wird der value genommen--> 
+			<br />
+
+			Choose the background-color
+			<input class="hintergrundfarbe" type="color" name="hFarbe" placeholder="lightgrey" id="bGcolor" value="#b8b8b8">
+			<br />
+
+			Choose the backside-color
+			<input class="hintergrundfarbeKarte" type="color" name="hkFarbe" placeholder="darkgrey" id="bScolor" value="#2a2b2a">
+			<br />
+
+			Choose the font-color
+			<input class="schriftfarbe" type="color" name="ssFarbe" placeholder="white" id="font-color" value="#ffffff">
+			<br />
+
+			Choose the font-style
+			<input type="radio" name="Radiogroup" value="Arial" id="radio1" />
+			<label for="radio1">Arial</label>
+			<input type="radio" name="Radiogroup" value="Calibri" id="radio2" />
+			<label for="radio2">Calibri</label>
+			<input type="radio" name="Radiogroup" value="Helvetica" id="radio3" />
+			<label for="radio3">Helvetica</label>
+			<br />
+            
+			<button type="button" class="start">Start</button>
+		</fieldset>
+		</form>
+
+	</body>
+</html>

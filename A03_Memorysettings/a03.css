@@ -1,0 +1,102 @@
+html body{
+    height: 800px;
+    width: 1280px;
+    background: url("lol.PNG") no-repeat;
+    background-size: cover; 
+}
+
+h2{
+    top:-20px;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: -webkit-max-content;  /* fÃ¼r Safari */	
+	max-width: -moz-max-content;     /* fÃ¼r Firefox */
+	text-align: center;
+    opacity: 100%;
+    font-size: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Formular */
+input[type="radio"], input[type="checkbox"], label {
+	display: inline;
+}
+
+h1 {
+	grid-column: span 2;
+	text-align: center;
+}
+legend {
+    font-size: 40px;
+}
+
+.einstellung {
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Memory */
+#spiel{
+	justify-content: center; 
+	text-align: center;
+}
+
+#feld{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center; 
+	text-align: center;
+}
+
+/* Kartenstyle */
+.karte{
+	height: 200px;
+  	width: 200px;
+	border-radius: 10px;
+	margin: 0px 25px 25px 0px;
+	text-align: center;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.p {
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+}
+
+/* Kartenstati */
+.hidden{
+	background-color: black;
+	cursor: pointer;
+}
+
+.hidden p{
+	display: none;
+}
+
+.open{
+	background-color: rgb(250, 252, 251);
+}
+
+.taken{
+	visibility: hidden;
+}
+
+.taken p{
+	display: none;
+}
+
+.is-hidden {
+	display: none;
+}
