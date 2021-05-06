@@ -1,5 +1,4 @@
 
-//Die AUfgabe wurde in Zusammenarbeit mit Neele Rauber
 namespace canvas {
     window.addEventListener("load", start);
     
@@ -18,7 +17,7 @@ namespace canvas {
         triangle();
         box();
      }
-    //funktion für die kreise
+
     function circle(): void {
         for (let i: number = 0; i < 20; i++) { 
     
@@ -27,18 +26,18 @@ namespace canvas {
             let blue: number = Math.floor(Math.random() * 300);
             
             crc2.beginPath();
-            
+            //actual drawing and amount of circles, randomized
             crc2.arc(Math.floor (Math.random() * (1000) + 1), Math.floor(Math.random() * (700) + 1), Math.floor(Math.random() * (90) + 1), 0 , 2 * Math.PI);
             crc2.stroke();
             crc2.closePath();
-            
+            //color of the circles, randomized
             crc2.fillStyle = "rgb(" + red + ", " + green + "," + blue + ")";
             crc2.fill();
             
             }
     }
     
-    //funktion für die dreiecke
+
     function triangle(): void {
        
         for (let i: number = 0; i < 10; i++) {
