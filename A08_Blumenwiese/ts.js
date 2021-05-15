@@ -1,4 +1,6 @@
 "use strict";
+//in Zusammenarbeit mit Neele Rauber 
+// mit hilfe von Mona Stingl
 var Canvas;
 (function (Canvas) {
     window.addEventListener("load", handleLoad);
@@ -96,7 +98,7 @@ var Canvas;
         // Funktion berg rechts
         crc2.beginPath();
         crc2.moveTo(1280, 400);
-        crc2.quadraticCurveTo(1050, 10, 600, 750);
+        crc2.quadraticCurveTo(1000, 10, 550, 650);
         crc2.fill();
     }
     // Funktion Sonne
@@ -146,7 +148,7 @@ var Canvas;
         //Baumkrone
         crc2.beginPath();
         crc2.fillStyle = "#F29F8D";
-        crc2.arc(1800, 255, 60, 0, 2 * Math.PI);
+        crc2.arc(1100, 255, 60, 0, 2 * Math.PI);
         crc2.arc(1140, 285, 55, 0, 2 * Math.PI);
         crc2.arc(1110, 315, 35, 0, 2 * Math.PI);
         crc2.arc(1065, 305, 55, 0, 2 * Math.PI);
