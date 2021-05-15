@@ -17,7 +17,7 @@ namespace Canvas {
         drawMountainBig(500, 310, "#a9a9a9"); // Hinten
         
         drawMeadow(0, 0);
-        drawSun(560, 120, "#F2CAA7", "#F2CAA7"); // dritter Wert Sonnenstrahlen
+        drawSun(560, 120, "#F2CAA7"); // dritter Wert Sonnenstrahlen
 
         drawTree(750, 300); // rechter Rand
         drawBushBig(860, 380, "#BF7C63");
@@ -133,7 +133,7 @@ namespace Canvas {
     }
     
    // Funktion Sonne
-    function drawSun(_x: number, _y: number, _strokeColor: string, _fillColor: string): void {
+    function drawSun(_x: number, _y: number, _fillColor: string): void {
 
         // Sonne
         crc2.beginPath();

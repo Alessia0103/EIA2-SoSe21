@@ -13,7 +13,7 @@ var Canvas;
         drawSky(0, 0, "#88d1CF");
         drawMountainBig(500, 310, "#a9a9a9"); // Hinten
         drawMeadow(0, 0);
-        drawSun(560, 120, "#F2CAA7", "#F2CAA7"); // dritter Wert Sonnenstrahlen
+        drawSun(560, 120, "#F2CAA7"); // dritter Wert Sonnenstrahlen
         drawTree(750, 300); // rechter Rand
         drawBushBig(860, 380, "#BF7C63");
         drawBushSmall(90, 380, "#D98F8F");
@@ -102,7 +102,7 @@ var Canvas;
         crc2.fill();
     }
     // Funktion Sonne
-    function drawSun(_x, _y, _strokeColor, _fillColor) {
+    function drawSun(_x, _y, _fillColor) {
         // Sonne
         crc2.beginPath();
         crc2.fillStyle = _fillColor;
