@@ -1,4 +1,5 @@
-
+//in Zusammenarbeit mit Neele Rauber 
+// mit hilfe von Mona Stingl
 namespace Canvas {
 
     window.addEventListener("load", handleLoad);
